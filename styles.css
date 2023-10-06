@@ -1,5 +1,6 @@
-body{
+.body{
     background-color: rgb(0, 126, 161);
+    overflow: hidden;
 }
 
 .butto{
@@ -9,28 +10,28 @@ body{
     left: 1000px;
     font-size: 50px;
     position: relative;
-    left: 590px;
-    top:800px;
+    left: 920px;
+    top:1300px;
     
 } 
 
 .container{
-    height:670px;
+    height:1000px;
     background-color: rgb(255, 255, 129);
-    width:1000px;
+    width:1500px;
     position: relative;
-    top:5px;
-    left:590px;
+    top:100px;
+    left:670px;
 }
 
 .picture{
-    height: 600px;
-    width:900px;
+    height: 900px;
+    width:1300px;
     border:5px solid #fff;
     box-sizing: border-box;
     position:relative;
-    left:640px;
-    top:-630px;
+    left:770px;
+    top:-850px;
 
 }
 
@@ -58,7 +59,7 @@ body{
     text-align: center;
     position: relative;
     left:-690px;
-    top:-1000px
+    top:-1500px
     
 }
 
@@ -70,6 +71,7 @@ body{
 .pup{
     font-size: 100px;
     position: relative;
-    top: -1770px;
-    left: 915px
+    top: -2300px;
+    left: 1250px;
+    z-index: 101;
 }
